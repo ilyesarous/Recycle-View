@@ -1,19 +1,19 @@
 package com.example.fournisseurv5;
 
 public class modelClient {
-    private String montant,nom,réglé,solde,date,clientid,echéance;
+    private String montant,nom,regle,solde,date,clientid,echeance;
 
     public modelClient() {
     }
 
-    public modelClient(String montant, String nom, String réglé, String solde, String date, String clientid, String echéance) {
+    public modelClient(String montant, String nom, String réglé, String solde, String date, String clientid, String echeance) {
         this.montant = montant;
         this.nom = nom;
-        this.réglé = réglé;
+        this.regle = regle;
         this.solde = solde;
         this.date = date;
         this.clientid = clientid;
-        this.echéance = echéance;
+        this.echeance = echeance;
     }
 
     public String getMontant() {
@@ -32,12 +32,12 @@ public class modelClient {
         this.nom = nom;
     }
 
-    public String getRéglé() {
-        return réglé;
+    public String getRegle() {
+        return regle;
     }
 
-    public void setRéglé(String réglé) {
-        this.réglé = réglé;
+    public void setRegle(String regle) {
+        this.regle = regle;
     }
 
     public String getSolde() {
@@ -64,11 +64,11 @@ public class modelClient {
         this.clientid = clientid;
     }
 
-    public String getEchéance() {
-        return echéance;
+    public String getEcheance() {
+        return echeance;
     }
 
-    public void setEchéance(String echéance) {
-        this.echéance = echéance;
+    public void setEcheance(String echeance) {
+        this.echeance = echeance;
     }
 }

@@ -7,11 +7,11 @@ public class modelFour {
 
     }
 
-    public modelFour(String date, String echéance, String fournisseurid, String monrant, String nom, String solde) {
+    public modelFour(String date, String echéance, String fournisseurid, String montant, String nom, String solde) {
         this.date = date;
         this.echéance = echéance;
         this.fournisseurid = fournisseurid;
-        this.montant = monrant;
+        this.montant = montant;
         this.nom = nom;
         this.solde = solde;
     }
@@ -40,12 +40,12 @@ public class modelFour {
         this.fournisseurid = fournisseurid;
     }
 
-    public String getMonrant() {
+    public String getMontant() {
         return montant;
     }
 
-    public void setMonrant(String monrant) {
-        this.montant = monrant;
+    public void setMontant(String monrant) {
+        this.montant = montant;
     }
 
     public String getNom() {
